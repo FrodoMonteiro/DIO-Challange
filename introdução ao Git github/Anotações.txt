@@ -1,0 +1,148 @@
+ANSI.SYS_Define as funções que alteram a exibição gráfica, controlam a movimentação do cursor e reatribuem teclas.
+Append _ Possibilita que o programa abra os arquivos de dados nos diretórios especificados como se os arquivos estivessem no diretório atual.
+Attrib_ Exibe ou altera os atributos de arquivo.
+Break_ Define ou remove o controle de verificação CTRL+C
+Buffers_ Aloca memória para um número especificado de memórias intermediárias
+Call_ Chama um programa de lote a partir de outro sem interromper o primeiro programa de lote.
+Cd_ Exibe o nome do diretório atual ou altera o diretório atual.
+Chcp_ Exibe o número do conjunto de caracteres ativo (página de código).
+Chdir_ Exibe o nome do diretório atual ou altera o diretório atual.
+Chkdsk_ Verifica o status de um disco e exibe um relatório. Também corrige os erros encontrados no disco.
+CHKSTATE.SYS_ Utilizado pelo programa de otimização de memória, o MemMaker, para controlar o processo de otimização.
+Choice_ Exibe uma mensagem de aviso especificada, efetua uma pausa para o usuário escolher entre um conjunto de teclas especificado e fornece um parâmetro.
+Cls _ limpa a tela de vídeo.
+
+Comandos do CONFIG.SYS_
+
+O arquivo CONFIG.SYS é um arquivo de texto que contém comandos especiais, que configuram os componentes de hardware do computador para que o MS-DOS e os aplicativos possam usá-lo.
+
+Comandos Internacionais Altera as configurações específicas de país e conjuntos de caracteres (páginas de código).
+Command_ Inicia uma nova ocorrência do interpretador de comando do MS-DOS, COMMAND.COM.
+
+Configurações
+
+Múltiplas Define diversas configurações de sistema no arquivo config.sys.
+Controladores de dispositivos instaláveis do MS-DOS.
+Copy_ Copia um ou mais dos arquivos para o local especificado.
+Country_ Possibilita que o MS-DOS utilize horas, datas e moedas internacionais, conversões de letras maiúsculas/minúsculas e separadores decimais.
+Ctty _ Altera o dispositivo de terminal utilizado para controlar o seu computador.
+
+Date_ Exibe a data e emite um aviso se for necessário alterar a data.
+Dblspace _ Configura as unidades que foram compactadas.
+Debug_ Inicia o Debug, um programa que pode ser utilizado para testar e depurar arquivos executáveis.
+Defrag_ Reorganiza os arquivos no disco visando otimizar o seu desempenho.
+De_ l Exclui os arquivos especificados.
+Deltree _ Exclui um diretório, seus arquivos e todos os subdiretórios e arquivos abaixo do mesmo.
+Device_ Carrega na memória o controlador de dispositivo especificado. Este comando pode ser utilizado somente no arquivo CONFIG.SYS.
+Devicehigh_ Carrega os controladores de dispositivo na área de memória superior.
+
+Dicas sobre DriveSpace Responde algumas das perguntas mais comuns relativas ao DriveSpace.
+
+Dir_ Exibe uma lista dos arquivos e subdiretórios de um diretório.
+Diskcomp_ Compara o conteúdo de dois discos flexíveis.
+Diskcopy_ Copia o conteúdo do disco flexível na unidade de origem para um disco flexível formatado ou não formatado na unidade de destino.
+DISPLAY.SYS_ Suporta a alternação de conjuntos de caracteres para a sua tela e teclado.
+Dos_ Especifica que o MS-DOS dever manter um vínculo com a área de memória superior, carregar uma parte de si mesmo na área de memória alta(HMA), ou ambos.
+Doskey _ Possibilita a edição das linhas de comando e a criação e execução de macros.
+Dosshel_ l Inicia o MS-DOS Shell, uma interface gráfica do MS-DOS.
+DRIVER.SYS _ Cria uma unidade lógica que pode ser utilizada para fazer referência a uma unidade de disco flexível física.
+Drivparm_ Define os parâmetros para os dispositivos de bloco, como unidades de disco, quando você inicia o MS-DOS.
+Drvspace_ Compacta as unidades de disco rígido ou discos flexíveis, e configura as unidades que foram compactadas com a utilização do DriveSpace.
+DRVSPACE.SYS_ Determina o local de memória final de DRVSPACE.BIN, a parte do MS-DOS que propicia acesso às suas unidades compactadas.
+
+Echo _ Exibe ou oculta o texto em programas de lote quando o programa está sendo executado.
+Edit _ Inicia Editor do MS-DOS, que pode ser utilizado para a criação e edição de arquivos de texto ASCII.
+EGA.SYS_ Salva e restaura a exibição quando a Alternação entre Tarefas do MS-DOS_ Shell for utilizada com monitores EGA.
+Emm386_ Ativa ou desativa o suporte para memória expandida EMM386 em um computador com um processador 80386 ou superior.
+EMM386.EXE_ Propicia acesso á área de memória superior e simula memória expandida durante a utilização da memória estendida.
+Erase_ Exclui os arquivos especificados.
+Exit _ Finaliza o programa o interpretador de comando e retorna para o programa que iniciou.
+Expand_ Expande um arquivo compactado.
+Fasthelp _ Exibe uma lista de todos os comandos do MS-DOS e fornece uma breve explicação sobre cada um deles.
+Fastopen_ Diminui o tempo necessário para abrir arquivos utilizados com frequência.
+Fc_ Compara dois arquivos e exibe as diferenças entre eles.
+Fcbs_ Especifica o número de blocos de controle de arquivos que o MS-DOS é capaz de manter abertos ao mesmo tempo.
+Fdisk_ Configura um disco rígido para ser usado com o MS-DOS.
+Files_ Especifica o número de arquivos que o MS-DOS é capaz de acessar de uma só vez.
+
+Find_ Procura uma sequência de texto específica em um arquivo ou arquivos.
+For_ Executa um comando especificado para cada arquivo de um grupo de arquivos.
+Format _ Formata um disco para ser utilizado com o MS-DOS.
+Goto_ Direciona o MS-DOS para a linha de um programa de lote marcada com um nome especificado.
+Graphics_ Carrega na memória um programa que permite ao MS-DOS imprimir as informações exibidas na tela.
+Help _ Inicia a Ajuda do MS-DOS
+HIMEM.SYS_ Gerenciador de memória estendida, coordena o uso da memória.
+If_ Executa processamento condicional em programas de lote.
+Include _ Inclui o conteúdo de um bloco de configuração.
+Instal_ l Carrega um programa residente na memória ao iniciar o MS-DOS.
+Interlnk_ Conecta dois computadores através de portas paralelas ou seriais e habilita os computadores a compartilhar discos e portas de impressora.
+INTERLNK.EXE_ Redireciona as solicitações de operações em uma ou mais unidades Interlnk de cliente ou portas de impressora para uma ou mais unidades ou portas de impressora no servidor Interlnk.
+Intersvr_ Inicia o servidor Interlnk.
+Keyb_ Inicia o programa Keyb que configura o teclado para um idioma específico.
+Label_ Cria, altera ou exclui o nome do volume de um disco.
+Lastdrive_ Especifica o número máximo de unidades que podem ser acessadas.
+Lh_ Carrega um programa na área de memória alta.
+Loadfix_ Assegura que um programa seja carregado acima dos primeiros 64K de memória convencional e executa o programa.
+Loadhigh_ Carrega um programa na área de memória alta.
+Md_ Cria um diretório.
+Mem _ Exibe a quantidade de memória utilizada e livre no computador.
+Memmaker_ Otimiza a memória do computador movendo os controladores de dispositivo e programas residentes para a memória alta.
+MenuColor_ Define o texto e as cores de segundo plano do menu de inicialização.
+MenuDefault_ Especifica o item padrão do menu do menu de inicialização e define um valor para intervalo entre operações, se desejado.
+MenuItem_ Define um item no menu de inicialização.
+Mkdir_ Cria um diretório.
+Mode Commands _ Configura os dispositivos do sistema. Executa tarefas diferentes, tais como a exibição de status do sistema, a mudança de configurações do sistema ou portas ou dispositivos.
+More_ Exibe uma tela de saída de cada vez.
+Move_ Move um ou mais arquivos para outro local especificado.
+Msav_ Procura por vírus conhecidos no computador.
+Msbackup_ Executa o Microsoft Backup para o MS-DOS, o qual cria uma cópia de segurança ou restaura um ou mais arquivos de um disco para outro.
+Mscdex _ Possibilita o acesso a unidades CD-ROM.
+Msd_ Fornece informações técnicas detalhadas sobre o computador.
+Nlsfunc_ Inicia o programa Nlsfunc, que carrega informações especificas de pais para o suporte de língua nacional (NLS).
+Numlock_ Especifica se a configuração de NUM LOCK do teclado numérico está inicialmente definida como ON (ativada) ou OFF (desativada).
+Path_ Indica os diretórios a serem pesquisados pelo MS-DOS à procura de arquivos executáveis.
+Pause_ Suspende o processamento de um programa de lote e exibe uma mensagem solicitando ao usuário pressionar qualquer tecla para continuar.
+Power_ Reduz o consumo de energia quando aplicativos e dispositivos estão inativos.
+POWER.EXE _ Reduz o consumo de energia quando os aplicativos e dispositivos estiverem inativos.
+Print_ Imprime um arquivo de texto enquanto você está usando outros comandos do MS-DOS.
+
+Programa de lote Arquivo de texto não formatado que contém um ou mais comandos do MS-DOS, ao qual é atribuída uma extensão .BAT.
+
+Prompt Muda a aparência do aviso de comando.
+
+Qbasic_ Lê instruções escritas em linguagem Basic e as interpreta em código executável de computador.
+RAMDRIVE.SYS _ Cria uma unidade RAM na memória de acesso aleatório (RAM) do computador para simular uma unidade de disco rígido.
+Rd_ Exclui (remove) diretórios.
+Rem _ Permite incluir comentários em arquivos de lote ou no arquivo CONFIG.SYS.
+Ren_ Muda o nome de um arquivo ou arquivos.
+Rename_ Muda o nome de um arquivo ou arquivos.
+Replace_ Substitui arquivos incluídos no diretório de destino por arquivos do diretório de origem que possuem o mesmo nome.
+Restore_ Restaura arquivos dos quais foram feitas cópias de segurança.
+Rmdir _ Exclui (remove) diretórios.
+ScanDisk_ Aplicatico de análise e correção de discos que procura erros em uma unidade e corrige os problemas encontrados.
+Scandisk.ini_ Contem as configurações que podem ser utilizadas para personalizar o programa ScanDisk.
+Set_ Exibe, define ou remove variáveis de ambiente do MS-DOS.
+Setver _ Exibe a tabela de versões. Informa um número de versão (anterior á 6.0) a programas ou controladores de dispositivo que foram criados para versões anteriores do MS-DOS.
+SETVER.EXE_ Carrega a tabela de versão do MS-DOS na memória.
+Share_ Inicia o programa Share, que instala o compartilhamento de arquivos e os recursos que não permitem acesso aos discos e ás unidades de rede.
+Shel_ Especifica o nome e a localização do interpretador de comandos a ser usado pelo MS-DOS.
+Shift_ Muda a posição de parâmetros substituíveis em um arquivo de lote.
+SIZER.EXE _ Usado pelo programa de otimização de memória MemMaker para determinar o tamanho da memória de controladores de dispositivo e programas residentes em memória.
+Smartdrv_ Inicia ou configura o SMARTDrive, o qual cria um cachê de disco em memória estendida.
+SMARTDRV.EXE_ Carrega o controlador de dispositivo SMARTDRV.EXE para executar a duplicação de memórias intermediárias.
+Sort_ Lê entradas, classifica dados e grava os resultados na tela, em um arquivo ou em outro dispositivo.
+Stacks _ Suporta o uso dinâmico de pilhas de dados para o gerenciamento de interrupções de hardware.
+Submenu _ Define um item do menu de inicialização que, quando selecionado, exibe outro conjunto de opções.
+Subst _ Associa um caminho a uma letra de unidade.
+Switches _ Fornece opções especiais.
+Sys _ Cria um disco de inicialização,
+Time _ Exibe a hora do sistema e configura o relógio interno do computador.
+Tree _ Exibe graficamente a estrutura de diretório de um caminho ou do disco em uma unidade.
+Type_ Exibe o conteúdo de um arquivo de texto.
+Undelete _ Restaura arquivos previamente excluídos com o comando DEL.
+Unformat _ Restaura um disco apagado com o comando FORMAT.
+Ver_ Exibe o número da versão do MS-DOS.
+Verify _ Informa ao MS-DOS se deve verificar se os arquivos estão gravados corretamente em um disco, ou não.
+Vol_ Exibe o nome de volume e o número de série do disco, se houver.
+VSafe_ Monitora continuamente o computador á procura de vírus e exibe um alerta quando encontra algum.
+Xcopy_ Copia arquivos (exceto arquivos ocultos e de sistema) e diretórios, inclusive subdiretórios.
